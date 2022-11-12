@@ -1,0 +1,35 @@
+.sidenav {
+  height: 100%;
+  width: 12em;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding: 1em;
+  padding-top: 18vh;
+  background-color: rgba(252, 251, 247, 0.9);
+  font-size: 125%;
+  font-weight: 600;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  color: black;
+  padding-top: 1%;
+  font-size: 90%;
+  font-weight: 100;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding-top: 0.75em;
+  text-decoration: none;
+  font-size: 80%;
+}
